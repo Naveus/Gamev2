@@ -1,0 +1,150 @@
+{
+  "common": {
+    "buttons": {
+      "accept": "Kabul Et",
+      "reject": "Reddet",
+      "continue": "Devam Et",
+      "restart": "Yeniden Başla",
+      "mainMenu": "Ana Menü",
+      "investigate": "Araştır",
+      "ignore": "Yok Say",
+      "help": "Yardım Et",
+      "blame": "Suçla",
+      "isolate": "İzole Et",
+      "release": "Serbest Bırak",
+      "use": "Kullan",
+      "approve": "Onayla",
+      "takeMeasures": "Önlem Al",
+      "quarantine": "Karantinaya Al",
+      "takeCareSeriously": "Ciddiye Al",
+      "expandCemetery": "Mezarlığı Büyüt"
+    },
+    "stats": {
+      "publicMorale": "Halk Morali",
+      "churchTrust": "Kilise Güveni", 
+      "plagueSpread": "Veba Yayılımı",
+      "resources": "Kaynaklar"
+    },
+    "ui": {
+      "victory": "ZAFERİ KAZANDINIZ!",
+      "defeat": "YENİLGİ",
+      "gameTime": "Oyun Süresi",
+      "cardsPlayed": "Oynanan Kart",
+      "chaptersCompleted": "Tamamlanan Bölüm"
+    }
+  },
+  "chapters": {
+    "chapter1": {
+      "title": "Sakin Fırtına Öncesi",
+      "cards": {
+        "card1": {
+          "title": "Kasabın Talebi",
+          "description": "Kasap, et fiyatlarının düştüğünden şikâyet ediyor. Devletin vergi yükü hafifletmesini talep ediyor.",
+          "choiceA": "Kabul Et",
+          "choiceB": "Reddet"
+        },
+        "card2": {
+          "title": "Fırıncının Sorunu",
+          "description": "Fırıncı, buğday kalitesinden şikâyetçi. Yeni değirmen yapılmasını öneriyor.",
+          "choiceA": "Kabul Et",
+          "choiceB": "Reddet"
+        },
+        "card3": {
+          "title": "Esnaf Bayramı",
+          "description": "Esnaflar bayram yapmak istiyor. Ancak kalabalık ortam veba riskini artırabilir.",
+          "choiceA": "Kabul Et",
+          "choiceB": "Reddet"
+        },
+        "card4": {
+          "title": "Şüpheli Yolcu",
+          "description": "Kasaba gelen yabancı hasta görünüyor. Ne yapmalı?",
+          "choiceA": "Karantinaya al",
+          "choiceB": "Serbest bırak"
+        },
+        "card5": {
+          "title": "Rahibin Uyarısı",
+          "description": "Rahip, halkın günahkâr olduğunu ve vebanın tanrının gazabı olabileceğini söylüyor.",
+          "choiceA": "Ciddiye al",
+          "choiceB": "Göz ardı et"
+        },
+        "card6": {
+          "title": "Tuhaf Fareler",
+          "description": "Çiftçiler, farelerin arttığını söylüyor.",
+          "choiceA": "Önlem Al",
+          "choiceB": "Yok Say"
+        },
+        "card7": {
+          "title": "Ahır Yangını",
+          "description": "Ahırda çıkan yangınla 3 inek telef oldu.",
+          "choiceA": "Halkı Suçla",
+          "choiceB": "Yardım Et"
+        }
+      }
+    },
+    "chapter2": {
+      "title": "Gizli Yayılım",
+      "cards": {
+        "card1": {
+          "title": "Tapınak Rahibi",
+          "description": "Tapınakta bazı kişiler ateşler içinde dua ediyor.",
+          "choiceA": "Araştır",
+          "choiceB": "Yok say"
+        },
+        "card2": {
+          "title": "Mezarcının Uyarısı",
+          "description": "Mezarcı ölü sayısında artış gözlemlediğini söylüyor.",
+          "choiceA": "Mezarlığı büyüt",
+          "choiceB": "Reddet"
+        },
+        "card3": {
+          "title": "Tüccar Ziyareti",
+          "description": "Yabancı tüccar köye mal satmak istiyor.",
+          "choiceA": "Kabul Et",
+          "choiceB": "Reddet"
+        },
+        "card4": {
+          "title": "Şifacının İcadı",
+          "description": "Yeni bir bitkisel karışım veba etkisini azaltabilir.",
+          "choiceA": "Kullan",
+          "choiceB": "Reddet"
+        },
+        "card5": {
+          "title": "Tapınak Töreni",
+          "description": "Kilise büyük bir tören yapmak istiyor.",
+          "choiceA": "Onayla",
+          "choiceB": "Reddet"
+        },
+        "card6": {
+          "title": "Hasta Çocuk",
+          "description": "Kızamık benzeri hastalık belirtileri gösteren bir çocuk köy meydanında.",
+          "choiceA": "İzole Et",
+          "choiceB": "Serbest Bırak"
+        }
+      }
+    }
+  },
+  "gameEnd": {
+    "victory": {
+      "title": "ZAFERİ KAZANDINIZ!",
+      "description": "Veba salgınını başarıyla yendiniz!"
+    },
+    "defeat": {
+      "publicRebellion": {
+        "title": "Halk İsyanı",
+        "description": "Halkın morali tamamen düştü ve isyan ettiler. Liderliğiniz sona erdi."
+      },
+      "churchExcommunication": {
+        "title": "Kilise Aforozu",
+        "description": "Kilise güveni tamamen kayboldu ve aforoz edildiniz. Köyde hiçbir otoriteniz kalmadı."
+      },
+      "plagueSpread": {
+        "title": "Veba Salgını",
+        "description": "Veba tüm köyü kapladı. Herkes öldü ve siz de hayatta kalamadınız."
+      },
+      "resourceDepletion": {
+        "title": "Kaynak Tükenmesi",
+        "description": "Tüm kaynaklar tükendi. Köy açlık ve sefalet içinde çöktü."
+      }
+    }
+  }
+} 
